@@ -6,6 +6,10 @@
   <title>Mikaela Baluyot</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
     body {
       text-align: center;
       background: url("https://i.imgur.com/Hb3gCoO.jpeg") no-repeat center center fixed;
@@ -17,6 +21,16 @@
       margin: 0;
       color: brown;
       font-family: "Noto Sans Mono", monospace;
+    }
+    @media screen and (orientation: landscape) {
+      p {
+        font-size: 14px;
+        margin: 8px 0;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+      }
     }
     p {
       font-size: 15px;
