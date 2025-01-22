@@ -13,4 +13,3 @@ View my project [HERE](https://mikaebal.github.io/landing-page/) 🔍
 
 - HTML
 - CSS
-- Dash 
